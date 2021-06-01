@@ -1,8 +1,7 @@
-Vocabulary Maintenance including - 
-Content maintenance
-Generating RDF (SKOS)
-Loading into Research Vocabularies Australia and CSIRO Linked Data Registry 
-Are found at: 
+Vocabulary Maintenance instructions are found at: 
 https://github.com/ANZSoilData/def-au-scma/blob/main/vocab-maintenance.md#vocabulary-maintenance
-
-fu:([0-9A-Za-z][0-9A-Za-z_\-]*)
+Modifications specific to this register - 
+Replace the 
+replace regex s:([0-9][0-9A-Za-z_\-]*) with <$1>
+is instread:
+fu:([0-9A-Za-z][0-9A-Za-z_\-]*) with <$1>
