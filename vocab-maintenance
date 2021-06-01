@@ -4,3 +4,5 @@ Generating RDF (SKOS)
 Loading into Research Vocabularies Australia and CSIRO Linked Data Registry 
 Are found at: 
 https://github.com/ANZSoilData/def-au-scma/blob/main/vocab-maintenance.md#vocabulary-maintenance
+
+fu:([0-9A-Za-z][0-9A-Za-z_\-]*)
