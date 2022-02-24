@@ -189,8 +189,8 @@ fu:result a skos:Collection;
   dct:identifier "http://anzsoil.org/def/soil/au/edu/fed-uni/result"^^xsd:anyURI;
   skos:definition "A collection of soil results that are the results of observations relating to soil. These results fall outside of the codes and vocabularies from National Committee on Soil and Terrain (2009), Australian soil and land survey field handbook (3rd edn). ISBN: 9780643093959";
   skos:inScheme <http://anzoil.org/def/soil/au/edu/fed-uni>;
-  skos:member result:name, result:structure-pedality-type;
-  skos:prefLabel "results" .
+  skos:member result:colour, result:name, result:structure-pedality-type, result:texture-grade;
+  skos:prefLabel "Results" .
 
 result:colour a skos:Collection;
   dct:identifier "http://anzsoil.org/def/soil/au/edu/fed-uni/result/colour"^^xsd:anyURI;
@@ -204,8 +204,6 @@ result:colour a skos:Collection;
     colour:orange-yellow, colour:red, colour:red-brown, colour:very-dark-brown, colour:very-dark-grey,
     colour:very-dark-grey-brown, colour:very-dusky-red, colour:yellow, colour:yellow-brown;
   skos:prefLabel "Colours" .
-
-fu:clasifier skos:member result:colour, result:texture-grade .
 
 result:texture-grade a skos:Collection;
   dct:identifier "http://anzsoil.org/def/soil/au/edu/fed-uni/result/texture-grade"^^xsd:anyURI;
