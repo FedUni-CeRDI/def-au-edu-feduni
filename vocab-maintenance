@@ -1,11 +1,15 @@
 # Vocabulary Maintenance
-## Content maintenance
-The goal is for each controlled vocabulary to be stored and published using a 'semantic web' representation - typically using SKOS for basic terms, definitions and (optionally) hierarchy; else using a domain-specific ontology if available. However, while it is eminently suitable for this application, it is a rather esoteric technology, unfamilar to most scientists and developers, and generally unsuitable for the development and maintenance of vocabaularies by subject-matter experts.
 
-For most users, the most convenient tool for development and maintenance of vocabaulary content is an Excel file (.xls or .xlsx format). Provided this is set up using a suitable template, the semantic web representation can be generated directly using SKOS Play!,
+## Content maintenance
+The goal is for each controlled vocabulary to be stored and published using a 'semantic web' representation - typically using [SKOS](https://www.w3.org/TR/skos-primer/) for basic terms, definitions and (optionally) hierarchy; else using a domain-specific ontology if available. 
+However, while it is eminently suitable for this application, it is a rather esoteric technology, unfamilar to most scientists and developers, and generally unsuitable for the development and maintenance of vocabaularies by subject-matter experts. 
+
+For most users, the most convenient tool for development and maintenance of vocabaulary content is an Excel file (.xls or .xlsx format). 
+Provided this is set up using a suitable template, the semantic web representation can be generated directly using [SKOS Play!](https://skos-play.sparna.fr/play/convert), 
 
 ## Generating RDF (SKOS)
-Go to https://skos-play.sparna.fr/play/convert Check In a local file on my computer and select the xslx file.
+Go to https://skos-play.sparna.fr/play/convert 
+Check **In a local file on my computer** and select the xslx file.
 
 **Convert**
 
@@ -38,13 +42,13 @@ Demo video
 Of creation and upload of a different vocabulary to RVA (out of demo mode). 
 The production and demo RVA interfaces are much the same
 
-+To edit of add metadata viewable in RVA interface of an existing vocabulary:
++ To edit of add metadata viewable in RVA interface of an existing vocabulary:
 Note, this is only the metadata viewable in RVA interface - there are also other metadata fields you can add or edit direct in the vocabulary .ttl file. This would require uppload of a new version (see below). 
 - Select the Published Vocabulary 'Soil Vocabularies coordinated through Federation University' (or whatever the current title)
 - Here, you can edit the metadata 
 - 'publish' - this will publish metadata changes (ie will not need a new vocabulary version number)
 
-+To add a New Version 
++ To add a New Version 
 to 'Versions' > '+ Add a version'Add a version - give the version a Title that is short 
 - Add Access Point - TTL
 - Upload file xxx.ttl
@@ -54,7 +58,7 @@ to 'Versions' > '+ Add a version'Add a version - give the version a Title that i
 - Add this version
 - Publish
 
-+To add a New Vocabulary
++ To add a New Vocabulary
 - Select owner
 - Make sure the Vocabulary Acronym is short  - the purpose is for use in the URL ie it is not for the end user to see at the inferface 
 - Enter metadata
