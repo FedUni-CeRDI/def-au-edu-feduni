@@ -42,13 +42,13 @@ Demo video
 Of creation and upload of a different vocabulary to RVA (out of demo mode). 
 The production and demo RVA interfaces are much the same
 
-*+ To edit of add metadata viewable in RVA interface of an existing vocabulary:*
+*To edit of add metadata viewable in RVA interface of an existing vocabulary:*
 Note, this is only the metadata viewable in RVA interface - there are also other metadata fields you can add or edit direct in the vocabulary .ttl file. This would require uppload of a new version (see below). 
 - Select the Published Vocabulary 'Soil Vocabularies coordinated through Federation University' (or whatever the current title)
 - Here, you can edit the metadata 
 - 'publish' - this will publish metadata changes (ie will not need a new vocabulary version number)
 
-*+ To add a New Version*
+*To add a New Version*
 to 'Versions' > '+ Add a version'Add a version - give the version a Title that is short 
 - Add Access Point - TTL
 - Upload file xxx.ttl
@@ -58,7 +58,7 @@ to 'Versions' > '+ Add a version'Add a version - give the version a Title that i
 - Add this version
 - Publish
 
-*+ To add a New Vocabulary*
+*To add a New Vocabulary*
 - Select owner
 - Make sure the Vocabulary Acronym is short  - the purpose is for use in the URL ie it is not for the end user to see at the inferface 
 - Enter metadata
