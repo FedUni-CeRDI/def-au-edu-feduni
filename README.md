@@ -1,6 +1,6 @@
 # def-au-edu-feduni
 
-Machine-readable conrolled-vocabularies maintained by Federation University
+Machine-readable conrolled-vocabularies implemented by Federation University which are outside of the Australian Land and Soil Handbook Series.
 
 Collections in this register are used in the decscriptions of data relating to soil
 
